@@ -1,1 +1,5 @@
 # Free_Fall_Detection_and_Alerting_Device
+
+Statistics show that one-third of older people who live at home fall at least once a year, and half of the people who live in a nursing home fall. In the United States, falls are the 7th leading cause of death in people aged 65 or over. These facts motivated us to work on a device that detects the fall of a person and automatically places a call for help through a Bluetooth paired Android phone.
+
+The developed device is a combination of a microcontroller (MSP430F5529), a Bluetooth module (HC06), an Accelerometer (ADXL345), and a piezoelectric buzzer (AT-1750). As soon as the person with the device experiences a fall, the accelerometer sends an interrupt to the microcontroller. The microcontroller signals the buzzer to raise the alarm and also relays the fall information, using the Bluetooth module, to an Android phone with the "FallAssist" app installed. The FallAssist app processes the information and places a call to the specified emergency contacts.
