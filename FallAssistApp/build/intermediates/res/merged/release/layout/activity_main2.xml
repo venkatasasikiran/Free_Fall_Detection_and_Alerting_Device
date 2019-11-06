@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idragonit.bluetoothcall.Main2Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run App"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop App"
+            android:id="@+id/button1"
+            android:layout_below="@+id/button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/Users/a568449/Downloads/myapp1/app/src/main/res/layout/activity_main2.xml -->
